@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700&family=Poppins&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <div class="page">
+        <header>
+            <h1>Inscrever-se</h1>
+            <p>O primeiro passo, é preencher esse formulário de inscrição.</p>
+        </header>
+        <form action="" id="my-form">
+            <fieldset>
+                <div class="fieldset-container">
+                    <legend>Ficha de Inscrição</legend>
+                    <div class="container">
+                        <label for="name">Nome </label>
+                        <input placeholder="Digite seu nome aqui" type="text" id="name" required />
+                    </div>
+                    <div class="container radio">
+                        <p for="gender">Gênero:</p>
+                        <label for="male">Masculino</label>
+                        <input type="radio" id="male" name="gender">
+
+                        <label for="female">Feminino</label>
+                        <input type="radio" id="female" name="gender">
+                    </div>
+                    <div class="container">
+                        <label for="color">Cor Favorita</label>
+                        <select id="color">
+                            <option>Roxo</option>
+                            <option>Azul</option>
+                            <option>Preto</option>
+                            <option>Laranja</option>
+                        </select>
+                    </div>
+                    <div class="container">
+                        <label for="unidade">Escolha a unidade IOS mais próxima:</label>
+                        <input type="text" list="unidade" placeholder="Escolha uma unidade IOS">
+                        <datalist id="unidade">
+                            <option>SP-Santana</option>
+                            <option>RS-Porto Alegre</option>
+                            <option>PE-Recife</option>
+                            <option>SP-Jardim Angela</option>
+                            <option>SP-Santo Amaro</option>
+                        </datalist>
+                    </div>
+                    <div class="container">
+                        <label for="info">Observações</label>
+                        <textarea id="info"></textarea>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+        <footer>
+            <button form="my-form" type="submit">Enviar</button>
+        </footer>
+    </div>
+</body>
+
+</html>
