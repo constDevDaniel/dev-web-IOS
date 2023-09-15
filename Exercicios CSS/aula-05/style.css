@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    font-size: 62.5%;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    max-width: 100vw;
+    height: 100vh;
+    background: url(./assets/skyrim.jpg) no-repeat center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    background-color: rgba(0, 0, 0, 0.574);
+    backdrop-filter: blur(4px);
+    width: 50vw;
+    height: 30vh;
+}
+
+figure {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #fff;
+    box-shadow: 3px 5px 6px #fff;
+}
+
+img {
+    width: 38vw;
+    height: 30vh;
+    object-fit: cover;
+    transform: rotate(146deg);
+}
+
+figcaption {
+    background-color: #f0ecec27;
+    width: 100%;
+    backdrop-filter: blur(4px);
+    color: #fff;
+    font-size: 2rem;
+    top: 0;
+    position: fixed;
+    padding: 2rem;
+}
