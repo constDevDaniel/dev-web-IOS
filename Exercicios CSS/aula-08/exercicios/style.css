@@ -1,0 +1,26 @@
+.none {
+    display: none;
+}
+
+
+.inline {
+    display: inline;
+    background-color: royalblue;
+}
+
+.block {
+    display: block;
+    height: 160px;
+    width: 100%;
+    border: 2px dotted red;
+    background-color: yellow;
+}
+
+
+.inline-block {
+    display: inline-block;
+    height: 100px;
+    width: 300px;
+    border: 1px solid red;
+    background-color: blueviolet;
+}

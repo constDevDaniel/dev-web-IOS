@@ -38,6 +38,7 @@ div {
 }
 .ctn3 {
     background-color: #f8a4a4;
+    clear: both; /* usado para o elemento abaixo do que esta com float não ocupar o espaço do mesmo*/
 }
 
 div:hover {
