@@ -1,0 +1,21 @@
+@charset "utf8";
+
+@media screen and (min-width: 350px) {
+	* {
+		font-size: 1.5rem;
+	}
+
+	h1 {
+		font-size: 3rem;
+	}
+
+	img {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 600px) {
+	p {
+		padding: 20px;
+	}
+}
