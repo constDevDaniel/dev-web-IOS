@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	font-size: 62.5%;
+}
+
+
+body {
+	font-size: 2rem;
+}
+
+.container {
+	border: 1px solid red;
+	max-width: 100vw;
+	max-height: 100vh;
+	display: flex;
+	gap: 1rem;
+	display: flex;
+	justify-content: center;
+	padding: 2rem;
+}
+
+.box {
+	border: 1px solid #04ff19;
+	width: 150px;
+	height: 150px;
+	text-align: center;
+}
+
+#cx1{
+	background-color: #04ff19;
+	order: 2;
+}
+#cx2{
+	background-color: #ff7504;
+	order: 1;
+	flex-grow: 2;
+}
+#cx3{
+	background-color: #044bff;
+	order: 3;
+}
