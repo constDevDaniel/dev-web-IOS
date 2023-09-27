@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+	font-size: 62.5%;
+}
+
+.wrapper {
+    background-color: antiquewhite;
+    font-size: 1.3rem;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 1rem;
+	grid-auto-rows: minmax(100px, auto); /*a linha terá no minimo 100px*/
+}
+
+.wrapper > div { /*pegando os filhos div de wrapper*/
+    background-color: red;
+    padding: 1rem;
+    gap: 0.5rem;
+}
+
+.nested {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    /* o  */
+    /* grid-auto-flow: row; */
+    /* grid-auto-flow: column; */
+}
+
+div>div {
+    background-color: blue;
+    border-radius: 0.5rem;
+}
