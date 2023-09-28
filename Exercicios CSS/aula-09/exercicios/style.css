@@ -27,10 +27,6 @@ ul {
     list-style: none;
 }
 
-ul>li>a::first-letter {
-    font-size: 2rem;
-}
-
 a {
     color: #fff;
     font-size: 2rem;
@@ -60,4 +56,5 @@ main {
 
 main h1::first-letter {
     font-size: 7rem;
+    color: rgb(193, 193, 15);
 }
