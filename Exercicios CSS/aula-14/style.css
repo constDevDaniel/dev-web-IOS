@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	font-size: 62.5%;
+}
+
+.container {
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+}
+/*
+#wrapper1 {
+    background-color: #7041419e;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    place-items: center;
+}
+
+#wrapper1>div {
+    background-color: #a92121;
+    width: 100%;
+    height: 100%;
+}
+
+
+#wrapper2 {
+    background-color: #6a16d29e;
+    display: grid;
+    grid-template-columns: 30px 30px ;
+    grid-template-rows: repeat(2, 40px);
+}
+*/
