@@ -1,10 +1,13 @@
-const frutas = prompt("Digite uma fruta: ");
+"use strict";
+const frutas = ["  Banana", "Maçã", "Pera", "Uva", "Melancia"];
 
-console.log(frutas);
-console.log(frutas.length);
+// const frutas = prompt("Digite uma fruta: ");
 
-console.log(frutas[0].substring(0, 3));
+document.writeln(frutas + "<br>");
+document.writeln(frutas.length + "<br>");
 
-console.log(frutas[0].trim());
+document.writeln(frutas[1].substring(0, 3) + "<br>");
 
-console.log(frutas.map(fruta => `fruta: ${fruta.toLowerCase()}`));
+document.writeln(frutas[0].trim() + "<br>");
+
+document.writeln(frutas.map((fruta) => `${fruta.toLowerCase()}`));
