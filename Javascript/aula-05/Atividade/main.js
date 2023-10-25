@@ -1,8 +1,8 @@
-// let numero = 0
-// while(numero <= 50){
-//     console.log(numero);
-//     numero++;
-// }
+let numero = 0;
+while (numero <= 50) {
+	console.log(numero);
+	numero++;
+}
 
 let num = 10;
 do {
