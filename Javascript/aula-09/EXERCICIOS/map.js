@@ -22,7 +22,7 @@ const funcionarios = [
 ];
 
 funcionarios.forEach((funcionario) => {
-	console.log(funcionario);
+	console.log(funcionario.nome);
 });
 
 const novoSalario = funcionarios
