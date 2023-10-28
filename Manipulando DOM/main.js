@@ -16,4 +16,9 @@ $section.appendChild($p_Section)
 $article.appendChild($h1_Article)
 $article.appendChild($p_Article)
 
+$h1_Article.innerHTML = "Titulo do article"
+$p_Article.innerHTML = "Paragrafo do article"
+
+$h1_Section.innerHTML = "Titulo da section"
+$p_Section.innerHTML = "Paragrafo da section"
 
