@@ -26,20 +26,18 @@ for (let i = 0; i < alunos.length; i++) {
 
 	const alunosAprovados = [];
 
-	alunos.push({
+	alunosAprovados.push({
 		nome: alunos[i].nome,
 		notas: alunos[i].notas,
 		media: medias.toFixed(1),
 	});
-	
 
-	alunos.filter((aluno) => {
+	console.log(`
+	        Aluno ${alunos[i].nome} com notas ${alunos[i].notas
+		.join(" ")
+		.split(" ")}, teve a média ${medias.toFixed(1)}`);
+
+	alunosAprovados.filter((aluno) => {
 		console.log(aluno.media >= 7);
 	});
-
-	// console.log(`
-	//         Aluno ${alunos[i].nome} com notas ${alunos[i].notas
-	// 	.join(" ")
-	// 	.split(" ")}, teve a média ${medias.toFixed(1)}
-	//     `);
 }
