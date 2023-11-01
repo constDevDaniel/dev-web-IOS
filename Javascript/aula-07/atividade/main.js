@@ -11,33 +11,17 @@ const alunos = [
 		bolsista: true,
 		enderecos: ["rua octavio miranda", "av aruja"],
 	},
-	{
-		nome: "Pedro",
-		notas: [9.8, 6.0, 9.5, 4.0],
-		bolsista: false,
-		enderecos: ["avenida jabaquara", "travessa toledo de moraes"],
-	},
 ];
 
-for (let i = 0; i < alunos.length; i++) {
-	const medias =
-		alunos[i].notas.reduce((acumulador, atual) => acumulador + atual) /
-		alunos[i].notas.length;
-
-	const alunosAprovados = [];
-
-	alunosAprovados.push({
-		nome: alunos[i].nome,
-		notas: alunos[i].notas,
-		media: medias.toFixed(1),
-	});
-
-	console.log(`
-	        Aluno ${alunos[i].nome} com notas ${alunos[i].notas
-		.join(" ")
-		.split(" ")}, teve a média ${medias.toFixed(1)}`);
-
-	alunosAprovados.filter((aluno) => {
-		console.log(aluno.media >= 7);
-	});
-}
+alunos.forEach((aluno) => {
+	//reduzindo o array de notas, somando todas as notas que o aluno teve
+	const media =
+		aluno.notas.reduce((total, nota) => total + nota) / aluno.notas.length;
+	console.log(
+		`Aluno(a) ${aluno.nome} com notas ${
+			aluno.notas
+		} mora em tal endereço  e teve a média ${media}, e foi ${
+			media >= 7 ? "Aprovado" : "Reprovado"
+		}`
+	);
+});
