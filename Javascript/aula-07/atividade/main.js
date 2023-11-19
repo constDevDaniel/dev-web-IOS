@@ -11,6 +11,12 @@ const alunos = [
 		bolsista: true,
 		enderecos: ["rua octavio miranda", "av aruja"],
 	},
+	{
+		nome: "Daniel",
+		notas: [9.3, 6.0, 7.5, 8.0],
+		bolsista: false,
+		enderecos: ["rua dr cesar", "av mazzei"],
+	}
 ];
 
 alunos.forEach((aluno) => {
