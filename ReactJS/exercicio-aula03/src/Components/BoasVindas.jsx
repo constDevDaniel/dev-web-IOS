@@ -6,7 +6,7 @@ const BoasVindas = (props) => {
     <div>
         <section>
             <h1 style={{color: 'blue'}}>{props.nome}</h1>
-            <p>Você é uma pessoal legal!</p>
+            <p>Seja Bem vindo :D</p>
         </section>
     </div>
   )

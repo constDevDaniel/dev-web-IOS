@@ -7,8 +7,7 @@ const Sobre = () => {
 			<article>
 				<h2 style={estilo}>React</h2>
 				<p>
-					React é um framework para construção de interfaces com um código mais limpo e objetivo, podendo ser
-					mais rápido e prático.
+					React é um framework para construção de interfaces, sendo mais fácil a reutilização de componenetes.
 				</p>
 			</article>
 		</div>
